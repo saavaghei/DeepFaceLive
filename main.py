@@ -2,6 +2,7 @@ import argparse
 import os
 import platform
 from pathlib import Path
+from collections.abc import Iterable
 
 from xlib import appargs as lib_appargs
 from xlib import os as lib_os
